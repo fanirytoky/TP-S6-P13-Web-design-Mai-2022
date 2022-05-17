@@ -18,7 +18,7 @@
                 <div class="right-content">
                     <!-- img -->
                     <div class="right-img">
-                        <img src="<?php echo images_url_front("gallery/safe_in.png") ?>" alt="">
+                        <img width="100" height="600" src="<?php echo images_url_front("gallery/safe_in.png") ?>" alt="">
                     </div>
                     
                 </div>

@@ -20,6 +20,7 @@ class Contenu_Controller extends CI_Controller {
 	 */
 	public function liste_Contenu()
 	{
+		$this->output->cache(1440);
         $id = $_GET['id'];
         $this->load->model("Contenu_Modele");
 		$liste = $this->Contenu_Modele->liste_Contenu($id);
@@ -32,6 +33,7 @@ class Contenu_Controller extends CI_Controller {
 	
 	public function liste_ContenuById($id)
 	{
+		$this->output->cache(1440);
         $this->load->model("Contenu_Modele");
 		$liste = $this->Contenu_Modele->liste_ContenuById($id);
 		$data['listeCateg'] = $this->Contenu_Modele->liste_Categ();

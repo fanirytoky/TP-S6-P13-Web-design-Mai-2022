@@ -5,9 +5,9 @@
         public function __construct()
         {
             parent::__construct();
-            if(!$this->session->has_userdata('idAdmin')){
-                redirect(site_url('Welcome_Back'));
-            }
+            // if(!$this->session->has_userdata('idAdmin')){
+            //     redirect(site_url('Welcome_Back'));
+            // }
         }
 
         public function Acceuil()

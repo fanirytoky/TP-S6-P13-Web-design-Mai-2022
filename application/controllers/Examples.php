@@ -6,6 +6,9 @@ class Examples extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
+		// if(!$this->session->has_userdata('idAdmin')){
+		// 	redirect(site_url('Welcome_Back'));
+		// }
 
 		$this->load->database();
 		$this->load->helper('url');
@@ -15,7 +18,12 @@ class Examples extends CI_Controller {
 
 	public function _example_output($output = null)
 	{
+		// if(!$this->session->has_userdata('idAdmin')){
+		// 	redirect(site_url('Welcome_Back'));
+		// }
+		// else{
 		$this->load->view('example.php',(array)$output);
+		// }
 	}
 
 	public function offices()

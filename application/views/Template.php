@@ -33,7 +33,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="<?php echo images_url_front("logo/loder.png") ?>" alt="">
+                    <img width="100" height="50" src="<?php echo images_url_front("logo/loder.png") ?>" alt="">
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
-                                    <a href="index.html"><img src="<?php echo images_url_front("logo/logo.png") ?>" alt=""></a>
+                                    <a href="index.html"><img width="200" height="50" src="<?php echo images_url_front("logo/logo.png") ?>" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-xl-10 col-lg-10">
@@ -180,7 +180,7 @@
                                 <div class="single-footer-caption mb-30">
                                     <!-- logo -->
                                     <div class="footer-logo mb-35">
-                                        <a href="index.html"><img src="<?php echo images_url_front("logo/logo2_footer.png") ?>" alt=""></a>
+                                        <a href="index.html"><img width="200" height="50" src="<?php echo images_url_front("logo/logo2_footer.png") ?>" alt=""></a>
                                     </div>
                                     <div class="footer-tittle">
                                         <div class="footer-pera">
@@ -240,7 +240,7 @@
                             <div class="col-xl-12 ">
                                 <div class="footer-copy-right text-center">
                                     <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                        Copyright &copy;<script>2022;</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
                                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                                     </div>
                                 </div>
