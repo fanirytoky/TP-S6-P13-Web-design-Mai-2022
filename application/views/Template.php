@@ -59,24 +59,24 @@
                                         <nav>
                                             <ul id="navigation">                                                                                          
                                                 <li><a href="<?php echo site_url('Welcome') ?>">Home</a></li>
-                                                <li><a href="about.html">About</a></li>
+                                                <!-- <li><a href="about.html">About</a></li>
                                                 <li><a href="what-do.html">What we Do</a></li>
-                                                <li><a href="projects.html">Projects</a></li>
-                                                <li><a>Blog</a>
+                                                <li><a href="projects.html">Projects</a></li> -->
+                                                <li><a>Contenu</a>
                                                     <ul class="submenu">
                                                         <li><a href="<?php echo site_url("Contenu_Controller/Liste_Contenu?id=1") ?>">Causes</a></li>
                                                         <li><a href="<?php echo site_url("Contenu_Controller/Liste_Contenu?id=2") ?>">Effets</a></li>
                                                         <li><a href="<?php echo site_url("Contenu_Controller/Liste_Contenu?id=3") ?>">Solutions</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="<?php echo site_url("Welcome_Back") ?>">Admin</a></li>
+                                                <!-- <li><a href="contact.html">Contact</a></li>
+                                                <li><a href="<?php echo site_url("Welcome_Back") ?>">Admin</a></li> -->
                                             </ul>
                                         </nav>
                                     </div>
                                     <!-- Header-btn -->
                                     <div class="header-right-btn d-none d-lg-block ml-20">
-                                        <a href="contact.html" class="btn header-btn">Make a Donation</a>
+                                        <a href="<?php echo site_url("Welcome_Back") ?>" class="btn header-btn">Admin</a>
                                     </div>
                                 </div>
                             </div> 
@@ -106,7 +106,7 @@
                                     <P data-animation="fadeInUp" data-delay=".4s">Offrons-nous une vie verte et saine<br> nous devons protéger</P>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn">
-                                        <a href="industries.html" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Join Us Now</a>
+                                        <a href="<?php echo site_url("Contenu_Controller/Liste_Contenu?id=3") ?>" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Solutions</a>
                                     </div>
                                 </div>
                             </div>
@@ -123,7 +123,7 @@
                                     <P data-animation="fadeInUp" data-delay=".4s">Provide us a green and healthy life<br> we need to protect </P>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn">
-                                        <a href="industries.html" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Join Us Now</a>
+                                    <a href="<?php echo site_url("Contenu_Controller/Liste_Contenu?id=3") ?>" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Solutions</a>
                                     </div>
                                 </div>
                             </div>
@@ -140,7 +140,7 @@
                                     <P data-animation="fadeInUp" data-delay=".4s">Fiainana maintso sy tomady<br> Mila miaro isika </P>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn">
-                                        <a href="industries.html" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Join Us Now</a>
+                                    <a href="<?php echo site_url("Contenu_Controller/Liste_Contenu?id=3") ?>" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Vahaolana</a>
                                     </div>
                                 </div>
                             </div>
@@ -201,11 +201,7 @@
                                 <div class="footer-tittle">
                                     <h4>Our solutions</h4>
                                     <ul>
-                                        <li><a href="#">Design & creatives</a></li>
-                                        <li><a href="#">Telecommunication</a></li>
-                                        <li><a href="#">Restaurant</a></li>
-                                        <li><a href="#">Programing</a></li>
-                                        <li><a href="#">Architecture</a></li>
+                                        <li><a href="<?php echo site_url("Contenu_Controller/Liste_Contenu?id=3") ?>">Solutions</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -213,12 +209,9 @@
                         <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
-                                    <h4>Company</h4>
+                                    <h4>About</h4>
                                     <ul>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Review</a></li>
-                                        <li><a href="#">Insights</a></li>
-                                        <li><a href="#">Carrier</a></li>
+                                        <li><a href="<?php echo site_url('Welcome') ?>">Définition</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -228,10 +221,10 @@
                                 <div class="footer-tittle">
                                     <h4>Contact us</h4>
                                     <ul>
-                                        <li><a href="#">consulto98@gmail.com</a></li>
-                                        <li><a href="#">76/A, Green road, NYC</a></li>
+                                        <li><a href="#">framavozatovo@gmail.com</a></li>
+                                        <li><a href="#">Andoharanofotsy,ITUniversity</a></li>
                                         <li><a href="#">Privacy Policy</a></li>
-                                        <li class="number"><a href="#">(80) 783 367-3904</a></li>
+                                        <li class="number"><a href="#">+261342646285</a></li>
                                     </ul>
                                 </div>
                             </div>
